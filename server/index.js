@@ -1,6 +1,6 @@
 'use strict';
 
-const PORT = 3000; // convert this to an envirment variable
+const PORT = process.env.PORT || 3000; // convert this to an envirment variable
 
 // my application dependencies
 const express = require('express'); // node.js framework.
